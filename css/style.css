@@ -1,0 +1,46 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    background-image: url("../photos/wallpaperflare.com_wallpaper\ \(8\).jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login ,.sign__up,.home__name
+{
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: #09c 10px 10px 10px;
+}
+#signIn ,#signUp
+{
+    background: rgb(223,85,146);
+    background: linear-gradient(90deg, rgba(223,85,146,0.9136904761904762) 0%, rgba(148,187,233,1) 100%);
+    font-size: 25px;
+    font-weight: 700;
+    color:white
+}
+
+h1
+{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: 900;
+    color:black !important;
+   
+}
+a
+{
+    font-size: 20px;
+}
+
